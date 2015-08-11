@@ -84,3 +84,12 @@ let mapleader=','
 nnoremap <silent> <leader>v :e ~/vimfiles/vimrc<cr>
 nnoremap <silent> <leader>vv :so ~/vimfiles/vimrc<cr>
 
+" split to the right
+set splitright
+
+" don't beep or flash
+set visualbell
+set t_vb=
+
+" don't redraw when doing macro and other stuff
+set lazyredraw
