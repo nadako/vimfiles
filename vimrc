@@ -57,6 +57,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+nnoremap <silent> ; :nohlsearch<cr>
 
 " set tab to 4 spaces
 set tabstop=4
@@ -70,5 +71,16 @@ set colorcolumn=120
 " highlight current line
 set cursorline
 
+" show relative numbers in the gutter (useful for motion commands)
+set relativenumber
+
 " don't create swap files
 set noswapfile
+
+" use , as the leader key
+let mapleader=','
+
+" easier vimrc editing
+nnoremap <silent> <leader>v :e ~/vimfiles/vimrc<cr>
+nnoremap <silent> <leader>vv :so ~/vimfiles/vimrc<cr>
+
