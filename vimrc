@@ -93,3 +93,7 @@ set t_vb=
 
 " don't redraw when doing macro and other stuff
 set lazyredraw
+
+" use system clipboard
+set clipboard=unnamed
+
