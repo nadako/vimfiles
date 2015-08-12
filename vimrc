@@ -7,6 +7,8 @@ set runtimepath+=~/vimfiles/bundle/Vundle.vim
 call vundle#begin('~/vimfiles/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'jdonaldson/vaxe'
+Plugin 'mhinz/vim-startify'
 call vundle#end()
 
 " enable file type detection and plugin loading
@@ -97,3 +99,5 @@ set lazyredraw
 " use system clipboard
 set clipboard=unnamed
 
+" starify options
+let g:startify_session_persistence = 1
